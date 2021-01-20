@@ -1,0 +1,34 @@
+.container form input,
+.container form ::-webkit-input-placeholder {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid tomato;
+}
+
+.row {
+  padding-top: 2rem;
+}
+
+h3 span:first-child {
+  padding-left: 0 !important;
+}
+
+.description.pt-5 {
+  padding-top: 0 !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.alert {
+  color: var(--red);
+}
