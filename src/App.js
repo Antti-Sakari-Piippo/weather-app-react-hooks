@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Form from "./app_component/form.component";
 import Weather from "./app_component/weather.component";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
 
-const API_KEY = "";
+const API_KEY = "f42e23066a2f4567c890f87f4c5b8114";
 
 const App = () => {
   const backgrounds = {

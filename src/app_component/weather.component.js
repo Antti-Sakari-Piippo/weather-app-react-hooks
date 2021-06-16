@@ -1,4 +1,3 @@
-import React from "react";
 import "./weather.style.css";
 
 const Weather = (props) => {
