@@ -1,34 +1,38 @@
 .container form input,
 .container form ::-webkit-input-placeholder {
-  color: white;
-  display: flex;
-  flex-direction: column;
+	color: white;
+	display: flex;
+	flex-direction: column;
 }
 
 .container input:focus {
-  background-color: transparent;
-  box-shadow: none !important;
-  border: none;
-  border-bottom: 2px solid tomato;
+	background-color: transparent;
+	box-shadow: none !important;
+	border: none;
+	border-bottom: 2px solid tomato;
 }
 
 .row {
-  padding-top: 2rem;
+	padding-top: 2rem;
 }
 
 h3 span:first-child {
-  padding-left: 0 !important;
+	padding-left: 0 !important;
 }
 
 .description.pt-5 {
-  padding-top: 0 !important;
+	padding-top: 0 !important;
 }
 
 .flex {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .alert {
-  color: var(--red);
+	color: var(--red);
+}
+
+.py-2 > span:first-of-type {
+	margin-right: 1rem;
 }
